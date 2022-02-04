@@ -1,0 +1,41 @@
+inicio {teste}
+varin@icio
+F > 4.5e-987
+literal A;
+inteiro B;
+{ as
+inteiro D;
+real } C ;
+varfim;
+"as 
+.escreva "Digite B:";
+leia B;
+escreva_dois "Digite A:";
+leia A;
+se B>222;
+entao
+se(B>=4.5e-84)
+se(B>=4.5E+84)
+entao
+escreva "B esta entre 2 e 4";
+fimse
+fimse
+B<-B/1;
+B<-B+2;
+B<-B+3;
+D<-B;
+C<-5.0;
+ repita B<5
+ C<-B>22;
+ escreva C;
+ B<-B+1;
+ fimrepita
+escreva "\nB=\n";
+escreva D;
+{as }
+escreva "\n";
+escreva C;
+escreva "\n";
+escreva A;
+fim
+$

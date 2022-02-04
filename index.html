@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compilador</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <section class="entrada">
+      <h1>Compilador</h1>
+      <input type="file" name="inputFile" id="inputFile" />
+      <br />
+      <pre id="output"></pre>
+      <button id="btn-compilar" onclick="">Compilar</button>
+    </section>
+
+    <section class="saida">
+      <h3>Analisador Léxico</h3>
+    </section>
+
+    <footer>
+      <p>
+        <strong>Universidade Federal de Goiás</strong><br />Escola de Engenharia
+        Elétrica, Mecânica e Computação<br />Compiladores 1<br />Aluno:
+        <strong>Lorenzo Antônio Leite</strong>
+      </p>
+    </footer>
+
+    <script src="./AnalisadorLexico/Comparadores/index.js"></script>
+    <script src="./AnalisadorLexico/Alfabeto/index.js"></script>
+    <script src="./AnalisadorLexico/Estados/index.js"></script>
+    <script src="./AnalisadorLexico/index.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
