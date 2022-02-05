@@ -25,21 +25,21 @@ button.addEventListener('click', function () {
   while (true) {
     const tokenRetornado = analisadorLexico.scanner()
     console.log(tokenRetornado)
-    let tdClasse = document.createElement('td')
-    let tdLexema = document.createElement('td')
-    let tdTipo = document.createElement('td')
+    // let tdClasse = document.createElement('td')
+    // let tdLexema = document.createElement('td')
+    // let tdTipo = document.createElement('td')
 
-    let responseClasse = document.createTextNode(tokenRetornado.classe)
-    let responseLexema = document.createTextNode(tokenRetornado.lexema)
-    let responseTipo = document.createTextNode(tokenRetornado.tipo)
+    // let responseClasse = document.createTextNode(tokenRetornado.classe)
+    // let responseLexema = document.createTextNode(tokenRetornado.lexema)
+    // let responseTipo = document.createTextNode(tokenRetornado.tipo)
 
-    tdClasse.appendChild(responseClasse)
-    tdLexema.appendChild(responseLexema)
-    tdTipo.appendChild(responseTipo)
+    // tdClasse.appendChild(responseClasse)
+    // tdLexema.appendChild(responseLexema)
+    // tdTipo.appendChild(responseTipo)
 
-    tableBody.appendChild(tdClasse)
-    tableBody.appendChild(tdLexema)
-    tableBody.appendChild(tdTipo)
+    // tableBody.appendChild(tdClasse)
+    // tableBody.appendChild(tdLexema)
+    // tableBody.appendChild(tdTipo)
     if (tokenRetornado.lexema === '$') {
       break
     }
